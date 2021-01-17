@@ -115,8 +115,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     validator: (value) {
                       if (value.isEmpty)
                         return "o Nome da tarefa não pode ser vazio.";
-                      else
-                        return "";
                     },
                     decoration: InputDecoration(
                         labelText: "Nova Tarefa",
